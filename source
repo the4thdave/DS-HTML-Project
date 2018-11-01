@@ -1,8 +1,28 @@
 <!DOCTYPE html>
-<html>
-
-  <body>
-    Discrete Structures 1 HTML Project
-  </body>
-  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Relations in Discrete Structures</title>
+</head>
+<body>
+<h1>Relations</h1>
+<h2>What is a relation?</h2>
+<p1>A relation is how the elements in the domain relate to the elements in the codomain.</p1>
+<br>
+<p2><b>Domain</b> of the relation - the "subject" of the relation.</p2>
+<br>
+<p3><b>Co-domain</b> of the relation - the "object" of the relation.</p3>
+<br>
+<br>
+<p4 style="font-size:160%">Elements of the Relation</p4>
+<br>
+<p5>Suppose the domain is {Matt, Ethan, Jed} and the co-domain is {Cat, Dog, Lion}
+<br>
+The ordered pairs of the domain and co-domain are (Matt, Cat) , (Ethan, Dog) , and (Jed, Lion)
+<br>
+We call these the <b>elements</b> of the relation.</p5>
+<p6 style = "font-size:160%">Displaying Elements in a Relation</p6>
+<p7>One way of displaying a relation is using a picture.</p7>
+<img src = "relation.jpg" alt = "Graph">
+</body>
 </html>
