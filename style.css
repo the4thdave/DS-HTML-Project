@@ -30,7 +30,7 @@ header {
 a.gear > img {
     float: left;
     position: relative;
-    top: 0px;
+    top: -2px;
 }
 h1.title {
     position: relative;
