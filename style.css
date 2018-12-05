@@ -19,8 +19,8 @@ html, body, #wrapper, main, div.container, div.row, div.content, .midcolumn2{
     position: relative;
 }
 header > div.container {
-    border-bottom: 0px solid gray;
-    padding: 0px 5px 0px;
+    border-bottom: 0 solid gray;
+    padding: 0 5px 0;
     background-color: white;
     overflow: auto;
 }
@@ -51,7 +51,7 @@ h1.title {
 .midcolumn2 {
     width: 50%;
     border: 1px solid lightgray;
-    padding: 0px 10px 0px;
+    padding: 0 10px 0;
     background: white;
 }
 @media screen and (max-width: 600px) {
@@ -75,7 +75,7 @@ li.heading {
     font-size: 150%;
     background: dodgerblue;
     border: 1px solid gray;
-    padding: 10px 0px 10px;
+    padding: 10px 0 10px;
     margin-right: 25px;
     margin-top: -12px;
     text-align: center;
