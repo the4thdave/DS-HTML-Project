@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, serif;
+}
+html {
+    margin: 0;
+    width: 100%;
+}
+body {
+    font-size: 14px;
+    background-color: whitesmoke;
+    line-height: 22px;
+    color: black;
+    margin: 0;
+    width: 100%;
+}
+html, body, #wrapper, main, div.container, div.row, div.content, .midcolumn2{
+    height: 100%;
+    position: relative;
+}
+header > div.container {
+    border-bottom: 0px solid gray;
+    padding: 0px 5px 0px;
+    background-color: white;
+    overflow: auto;
+}
+header {
+    margin-bottom: 10px;
+}
+img[src="gear.png"] {
+    float: left;
+    position: relative;
+    top: 0px;
+}
+h1.title {
+    position: relative;
+    top: 8px;
+}
+#topbar > li {
+    float: left;
+}
+#topbar {
+    list-style: none;
+}
+.midcolumn, .midcolumn2, .midcolumn3 {
+    float: left;
+}
+.midcolumn, .midcolumn3 {
+    width: 25%;
+}
+.midcolumn2 {
+    width: 50%;
+    border: 1px solid lightgray;
+    padding: 0px 10px 0px;
+    background: white;
+}
+@media screen and (max-width: 600px) {
+    .midcolumn, .midcolumn2, .midcolumn3 {
+        width: 100%;
+    }
+}
+.footer {
+    background-color: dodgerblue;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer > p {
+    color: white;
+    text-align: right;
+}
+li.heading {
+    list-style: none;
+    font-size: 150%;
+    background: dodgerblue;
+    border: 1px solid gray;
+    padding: 10px 0px 10px;
+    margin-right: 25px;
+    margin-top: -12px;
+    text-align: center;
+    color: white;
+}
+.midcolumn2 > h1 {
+    font-size: 225%;
+}
+.midcolumn2 > .heading {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+.ptext {
+    font-size: 12pt;
+}
+a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+.navlink:hover {
+    background-color: lightgray;
+}
+.mainmenu {
+    list-style-position: none;
+}
+.mainmenu li {
+    list-style-type: none;
+}
+.sidelink{
+    position: relative;
+    z-index: 2;
+    border: 1px solid lightgray;
+    width: 92.2%;
+}
+.sidelink:hover {
+    background-color: lightgray;
+}
+
