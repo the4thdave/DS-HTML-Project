@@ -27,7 +27,7 @@ header > div.container {
 header {
     margin-bottom: 10px;
 }
-img[src="the4thdave/DS-HTML-Project/gear.png"] {
+img[src="/DS-HTML-Project/gear.png"] {
     float: left;
     position: relative;
     top: 0px;
