@@ -89,7 +89,7 @@ li.heading {
     text-align: center;
 }
 .ptext {
-    font-size: 12pt;
+    font-size: 20pt;
 }
 a {
     color: black;
@@ -102,9 +102,6 @@ a {
 }
 .mainmenu {
     list-style-position: none;
-}
-.mainmenu li {
-    list-style-type: none;
 }
 .sidelink{
     position: relative;
