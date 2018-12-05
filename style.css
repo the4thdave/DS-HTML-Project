@@ -7,7 +7,7 @@ html {
     width: 100%;
 }
 body {
-    font-size: 14px;
+    font-size: 14pt;
     background-color: whitesmoke;
     line-height: 22px;
     color: black;
@@ -88,9 +88,6 @@ li.heading {
     border-bottom: 1px solid lightgray;
     text-align: center;
 }
-.ptext {
-    font-size: 12pt;
-}
 a {
     color: black;
     text-decoration: none;
@@ -99,9 +96,6 @@ a {
 }
 .navlink:hover {
     background-color: lightgray;
-}
-.mainmenu {
-    list-style-position: none;
 }
 .mainmenu li {
     list-style-type: none;
@@ -115,4 +109,3 @@ a {
 .sidelink:hover {
     background-color: lightgray;
 }
-
