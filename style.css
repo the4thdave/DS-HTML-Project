@@ -18,6 +18,10 @@ html, body, #wrapper, main, div.container, div.row, div.content, .midcolumn2{
     height: 100%;
     position: relative;
 }
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
 header > div.container {
     border-bottom: 0px solid gray;
     padding: 0px 5px 0px;
@@ -58,17 +62,6 @@ h1.title {
     .midcolumn, .midcolumn2, .midcolumn3 {
         width: 100%;
     }
-}
-.footer {
-    background-color: dodgerblue;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-.footer > p {
-    color: white;
-    text-align: right;
 }
 li.heading {
     list-style: none;
@@ -112,7 +105,6 @@ a {
 .sidelink:hover {
     background-color: lightgray;
 }
-
 .ptext p {
     font-size: 14pt;
     line-height: 200%;
